@@ -3,7 +3,7 @@ import './Add.css'
 import { assets } from '../../../assets/assets'
 import axios from 'axios'
 const Add = () => {
-    const url = "http://localhost:3000";
+    const url = "https://quick-bites-backend-z51x.onrender.com";
     const [image, setImage] = useState(false);
     const [data, setData] = useState({
         name: "",

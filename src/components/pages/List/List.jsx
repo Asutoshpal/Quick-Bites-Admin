@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './List.css'
 import axios from 'axios';
 const List = () => {
-  const url = "http://localhost:3000";
+  const url = "https://quick-bites-backend-z51x.onrender.com";
   const [list, setList] = useState([]);
 
   const fetchList = async() => {
